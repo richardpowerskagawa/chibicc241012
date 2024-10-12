@@ -1,3 +1,4 @@
+# In Makefiles, double quotes (" ") are not special characters like they are in bash.
 CFLAGS=-std=c11 -g -fno-common -Wall -Wno-switch
 
 SRCS=$(wildcard *.c)

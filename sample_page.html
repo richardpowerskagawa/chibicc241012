@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page with Index Side Menu</title>
+    <style>
+        /* Basic styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        /* Layout setup */
+        .container {
+            display: flex;
+        }
+        /* Sidebar styling */
+        .sidebar {
+            width: 250px;
+            height: 100vh;
+            background-color: #f4f4f4;
+            padding: 20px;
+            position: fixed;
+            overflow-y: auto;
+        }
+        .sidebar a {
+            display: block;
+            margin-bottom: 10px;
+            color: #333;
+            text-decoration: none;
+        }
+        .sidebar a:hover {
+            color: #007bff;
+        }
+        /* Content area */
+        .content {
+            margin-left: 270px;
+            padding: 20px;
+        }
+        /* Section styling */
+        section {
+            padding: 50px 0;
+            border-bottom: 1px solid #ddd;
+        }
+        section h2 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- Sidebar with Index Menu -->
+    <div class="sidebar">
+        <h3>Index</h3>
+        <a href="#section1">Introduction</a>
+        <a href="#section2">Getting Started</a>
+        <a href="#section3">Basic Concepts</a>
+        <a href="#section4">Advanced Topics</a>
+        <a href="#section5">Conclusion</a>
+    </div>
+
+    <!-- Main Content Area -->
+    <div class="content">
+        <section id="section1">
+            <h2>Introduction</h2>
+            <p>This is the introduction section. Here you can provide an overview of the topic.</p>
+        </section>
+
+        <section id="section2">
+            <h2>Getting Started</h2>
+            <p>This section covers the basics of getting started with the topic.</p>
+        </section>
+
+        <section id="section3">
+            <h2>Basic Concepts</h2>
+            <p>Here you can explain the basic concepts related to the topic you're discussing.</p>
+        </section>
+
+        <section id="section4">
+            <h2>Advanced Topics</h2>
+            <p>This section delves into more advanced topics once the basics have been covered.</p>
+        </section>
+
+        <section id="section5">
+            <h2>Conclusion</h2>
+            <p>In conclusion, this section wraps up the discussion with key takeaways.</p>
+        </section>
+    </div>
+</div>
+
+</body>
+</html>
